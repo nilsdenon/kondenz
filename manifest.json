@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Kondenz",
+  "version": "1.0.0",
+  "icons": {
+    "32": "icon/icon_32.png"
+  },
+  "description": "a web extension to summarize articles",
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "action": {},
+  "permissions": ["scripting"],
+  "host_permissions": ["http://*/*", "https://*/*"]
+}
